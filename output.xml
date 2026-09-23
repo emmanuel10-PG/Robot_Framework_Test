@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.10.1 on win32)" generated="2026-09-23T19:35:29.243339" rpa="false" schemaversion="5">
+<suite id="s1" name="Test cases" source="C:\Users\ADMIN\PycharmProjects\TestProject\Test_cases.robot">
+<test id="s1-t1" line="5">
+<status status="FAIL" start="2026-09-23T19:35:29.626351" elapsed="0.001060">Test name cannot be empty.</status>
+</test>
+<test id="s1-t2" name="Log" line="6">
+<kw name="hello world">
+<msg time="2026-09-23T19:35:29.631364" level="FAIL">No keyword with name 'hello world' found.</msg>
+<status status="FAIL" start="2026-09-23T19:35:29.631364" elapsed="0.000000">No keyword with name 'hello world' found.</status>
+</kw>
+<status status="FAIL" start="2026-09-23T19:35:29.628343" elapsed="0.003993">No keyword with name 'hello world' found.</status>
+</test>
+<test id="s1-t3" name="TC1" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-23T19:35:29.634657" level="INFO">Opening browser 'firefox' to base url 'https://www.google.com'.</msg>
+<arg>https://www.google.com</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-23T19:35:29.634657" elapsed="25.677440"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2026-09-23T19:35:55.578820" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+</msg>
+<msg time="2026-09-23T19:35:55.582818" level="FAIL">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:439:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:581:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:38:4
+dispatch@chrome://remote/content/marionette/server.sys.mjs:311:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:587:17
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2026-09-23T19:35:55.313096" elapsed="0.280720">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:439:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:581:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:38:4
+dispatch@chrome://remote/content/marionette/server.sys.mjs:311:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:587:17
+</status>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>id=L2AGLb</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-09-23T19:35:55.594830" elapsed="0.000000"/>
+</kw>
+<tag>TC1</tag>
+<status status="FAIL" start="2026-09-23T19:35:29.633343" elapsed="25.964478">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:439:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:581:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:38:4
+dispatch@chrome://remote/content/marionette/server.sys.mjs:311:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:587:17
+</status>
+</test>
+<status status="FAIL" start="2026-09-23T19:35:29.245339" elapsed="26.366479"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">TC1</stat>
+</tag>
+<suite>
+<stat name="Test cases" id="s1" pass="0" fail="3" skip="0">Test cases</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-09-23T19:35:55.578820" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+</msg>
+</errors>
+</robot>

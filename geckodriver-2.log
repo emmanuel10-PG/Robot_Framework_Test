@@ -1,0 +1,17 @@
+1790192129771	geckodriver	INFO	Listening on 127.0.0.1:60216
+1790192132854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofileYytLoU"
+Dynamically enable window occlusion 0
+1790192133301	Marionette	INFO	Marionette enabled
+1790192133420	Marionette	INFO	Listening on port 60236
+WebDriver BiDi listening on ws://127.0.0.1:60217
+Read port: 60236
+1790192133590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.gstatic.com/og/_/js/k=og.asy.en_US.z6LsnA57xIY.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshlUm-roeZQlko2QnKjmuYUGxFAA, line 100: Script terminated by timeout at:
+zg@https://www.gstatic.com/og/_/js/k=og.asy.en_US.z6LsnA57xIY.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshlUm-roeZQlko2QnKjmuYUGxFAA:100:364
+sg@https://www.gstatic.com/og/_/js/k=og.asy.en_US.z6LsnA57xIY.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshlUm-roeZQlko2QnKjmuYUGxFAA:97:195
+ug@https://www.gstatic.com/og/_/js/k=og.asy.en_US.z6LsnA57xIY.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshlUm-roeZQlko2QnKjmuYUGxFAA:96:985
+Cg/<@https://www.gstatic.com/og/_/js/k=og.asy.en_US.z6LsnA57xIY.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTshlUm-roeZQlko2QnKjmuYUGxFAA:102:491
+
+1790192155377	Marionette	INFO	Stopped listening on port 60236
+Exiting due to channel error.
+Exiting due to channel error.
