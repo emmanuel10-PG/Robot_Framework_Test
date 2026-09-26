@@ -1,0 +1,20 @@
+1790425688891	geckodriver	INFO	Listening on 127.0.0.1:62224
+1790425691985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofileT35SDE"
+Dynamically enable window occlusion 0
+1790425692407	Marionette	INFO	Marionette enabled
+1790425692516	Marionette	INFO	Listening on port 62232
+WebDriver BiDi listening on ws://127.0.0.1:62225
+Read port: 62232
+1790425692692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-157020260831183837-to-release-155-addondeployment not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.warn: RSLoader: Recipe new-tab-158020260913220257-to-release-156 not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.warn: RSLoader: Recipe new-tab-158120260920214645-to-release-156 not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1790425699727	Marionette	INFO	Stopped listening on port 62232
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 465: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
