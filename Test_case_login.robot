@@ -1,6 +1,9 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+# importer le fichier keywordLogin dans le fichier Test_cas
+# si le fichier Test etait dans le repertoire Test>Test.robot on aura : ../Ressources/KeywordLogin.robot
+Resource  Ressources/KeywordLogin.robot
 # NB on place variable en bas ou en haut de test case mais pas dans la rubrique test case ( la rubrique
 # test case comprend le nom du projet et les instructions du cas de test.
 Default Tags  Test_Login
@@ -106,28 +109,6 @@ TC5
 
    # Doit attendre avant
    Set Browser Implicit Wait   20s
-
-
-
-
-*** Keywords ***
-LOGINKWD
-   Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${credentials}[0]
-   Input Password  Name=password   ${credentials}[1]
-
-LOGIN MDP INC
-   Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${loginPsswdInc}[user]
-   Input Password  Name=password  ${loginPsswdInc}[passwd]
-
-LOGIN USER INC
-   Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${loginUserInc}[user]
-   Input Password  Name=password  ${loginUserInc}[passwd]
-
-
-LOGIN USER MDP INC
-   Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${loginPsswdUserInc}[user]
-   Input Password  Name=password  ${loginPsswdUserInc}[passwd]
-
 
 
 # pour executer le TC specifique depuis la ligne de commande il faut faire

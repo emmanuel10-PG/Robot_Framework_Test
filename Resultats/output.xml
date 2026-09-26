@@ -1,280 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.5 (Python 3.10.1 on win32)" generated="2026-09-26T12:44:38.579437" rpa="false" schemaversion="5">
+<robot generator="Robot 7.5 (Python 3.10.1 on win32)" generated="2026-09-26T13:38:12.700723" rpa="false" schemaversion="5">
 <suite id="s1" name="Test case login" source="C:\Users\ADMIN\PycharmProjects\TestProject\Test_case_login.robot">
-<test id="s1-t1" name="TestProjet" line="38">
+<test id="s1-t1" name="TestProjet" line="41">
 <kw name="Log" owner="BuiltIn">
-<msg time="2026-09-26T12:44:38.948174" level="INFO">Test roboframework</msg>
+<msg time="2026-09-26T13:38:13.085125" level="INFO">Test roboframework</msg>
 <arg>Test roboframework</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-09-26T12:44:38.947175" elapsed="0.000999"/>
+<status status="PASS" start="2026-09-26T13:38:13.084127" elapsed="0.000998"/>
 </kw>
 <tag>Test_Login</tag>
-<status status="PASS" start="2026-09-26T12:44:38.946149" elapsed="0.002025"/>
+<status status="PASS" start="2026-09-26T13:38:13.083127" elapsed="0.001998"/>
 </test>
-<test id="s1-t2" name="TC1" line="41">
+<test id="s1-t2" name="TC1" line="44">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:44:38.951174" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-09-26T13:38:13.087127" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-26T12:44:38.950174" elapsed="9.674223"/>
+<status status="PASS" start="2026-09-26T13:38:13.087127" elapsed="10.908796"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-26T12:44:48.624397" elapsed="0.276329"/>
+<status status="PASS" start="2026-09-26T13:38:23.996907" elapsed="0.295229"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//form</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-26T12:44:48.901725" elapsed="0.095999"/>
+<status status="PASS" start="2026-09-26T13:38:24.293124" elapsed="0.967871"/>
 </kw>
-<kw name="LOGINKWD">
+<kw name="LOGINKWD" owner="KeywordLogin">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:44:48.999725" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
+<msg time="2026-09-26T13:38:25.262995" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</arg>
 <arg>${credentials}[0]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:44:48.999725" elapsed="0.076513"/>
+<status status="PASS" start="2026-09-26T13:38:25.262995" elapsed="0.058002"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:44:49.077240" level="INFO">Typing password into text field 'Name=password'.</msg>
-<msg time="2026-09-26T12:44:49.089243" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-09-26T13:38:25.322031" level="INFO">Typing password into text field 'Name=password'.</msg>
+<msg time="2026-09-26T13:38:25.333996" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>Name=password</arg>
 <arg>${credentials}[1]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:44:49.076238" elapsed="0.033531"/>
+<status status="PASS" start="2026-09-26T13:38:25.320997" elapsed="0.028000"/>
 </kw>
-<status status="PASS" start="2026-09-26T12:44:48.998724" elapsed="0.111045"/>
+<status status="PASS" start="2026-09-26T13:38:25.262002" elapsed="0.086995"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:44:49.110768" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<msg time="2026-09-26T13:38:25.349996" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:44:49.110768" elapsed="1.197718"/>
+<status status="PASS" start="2026-09-26T13:38:25.349996" elapsed="1.261847"/>
 </kw>
 <kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
 <arg>20s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-09-26T12:44:50.309483" elapsed="0.002997"/>
+<status status="PASS" start="2026-09-26T13:38:26.611843" elapsed="0.001999"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-09-26T12:44:50.313503" elapsed="2.793535"/>
+<status status="PASS" start="2026-09-26T13:38:26.614839" elapsed="2.854127"/>
 </kw>
 <tag>AUTHENTICATION AVEC IDENTIFIANT CORRECT</tag>
-<status status="PASS" start="2026-09-26T12:44:38.949166" elapsed="14.158648"/>
+<status status="PASS" start="2026-09-26T13:38:13.086125" elapsed="16.382841"/>
 </test>
-<test id="s1-t3" name="TC2" line="55">
+<test id="s1-t3" name="TC2" line="58">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:44:53.115785" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-09-26T13:38:29.470967" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-26T12:44:53.114786" elapsed="9.132741"/>
+<status status="PASS" start="2026-09-26T13:38:29.470967" elapsed="9.475908"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-26T12:45:02.247527" elapsed="0.270704"/>
+<status status="PASS" start="2026-09-26T13:38:38.946875" elapsed="0.278122"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//form</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-26T12:45:02.518231" elapsed="0.081995"/>
+<status status="PASS" start="2026-09-26T13:38:39.226000" elapsed="0.088997"/>
 </kw>
-<kw name="LOGIN MDP INC">
+<kw name="LOGIN MDP INC" owner="KeywordLogin">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:02.601225" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
+<msg time="2026-09-26T13:38:39.315998" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</arg>
 <arg>${loginPsswdInc}[user]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:02.601225" elapsed="0.036016"/>
+<status status="PASS" start="2026-09-26T13:38:39.315998" elapsed="0.033996"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:02.638229" level="INFO">Typing password into text field 'Name=password'.</msg>
-<msg time="2026-09-26T12:45:02.645226" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-09-26T13:38:39.351996" level="INFO">Typing password into text field 'Name=password'.</msg>
+<msg time="2026-09-26T13:38:39.358998" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>Name=password</arg>
 <arg>${loginPsswdInc}[passwd]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:02.638229" elapsed="0.021996"/>
+<status status="PASS" start="2026-09-26T13:38:39.351043" elapsed="0.023955"/>
 </kw>
-<status status="PASS" start="2026-09-26T12:45:02.600226" elapsed="0.059999"/>
+<status status="PASS" start="2026-09-26T13:38:39.314997" elapsed="0.060001"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:02.661225" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<msg time="2026-09-26T13:38:39.375999" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:02.661225" elapsed="1.033519"/>
+<status status="PASS" start="2026-09-26T13:38:39.375999" elapsed="1.302132"/>
 </kw>
 <kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
 <arg>20s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-09-26T12:45:03.695743" elapsed="0.002999"/>
+<status status="PASS" start="2026-09-26T13:38:40.678131" elapsed="0.003046"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-09-26T12:45:03.698742" elapsed="2.800931"/>
+<status status="PASS" start="2026-09-26T13:38:40.681177" elapsed="2.908873"/>
 </kw>
 <tag>AUTHENTICATION AVEC MOT DE PASSE INCORRECT</tag>
-<status status="PASS" start="2026-09-26T12:44:53.111785" elapsed="13.388368"/>
+<status status="PASS" start="2026-09-26T13:38:29.469965" elapsed="14.121022"/>
 </test>
-<test id="s1-t4" name="TC3" line="68">
+<test id="s1-t4" name="TC3" line="71">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:06.508188" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-09-26T13:38:43.596467" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-26T12:45:06.507192" elapsed="9.759867"/>
+<status status="PASS" start="2026-09-26T13:38:43.596467" elapsed="10.494700"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-26T12:45:16.268069" elapsed="0.283445"/>
+<status status="PASS" start="2026-09-26T13:38:54.092197" elapsed="0.303162"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//form</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-26T12:45:16.552513" elapsed="0.081288"/>
+<status status="PASS" start="2026-09-26T13:38:54.396359" elapsed="0.923758"/>
 </kw>
-<kw name="LOGIN USER INC">
+<kw name="LOGIN USER INC" owner="KeywordLogin">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:16.635804" level="INFO">Typing text 'AdminRERR' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
+<msg time="2026-09-26T13:38:55.322117" level="INFO">Typing text 'AdminRERR' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</arg>
 <arg>${loginUserInc}[user]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:16.635804" elapsed="0.037997"/>
+<status status="PASS" start="2026-09-26T13:38:55.321117" elapsed="0.035000"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:16.675812" level="INFO">Typing password into text field 'Name=password'.</msg>
-<msg time="2026-09-26T12:45:16.682800" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-09-26T13:38:55.357117" level="INFO">Typing password into text field 'Name=password'.</msg>
+<msg time="2026-09-26T13:38:55.368116" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>Name=password</arg>
 <arg>${loginUserInc}[passwd]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:16.674801" elapsed="0.019998"/>
+<status status="PASS" start="2026-09-26T13:38:55.356117" elapsed="0.026999"/>
 </kw>
-<status status="PASS" start="2026-09-26T12:45:16.634803" elapsed="0.059996"/>
+<status status="PASS" start="2026-09-26T13:38:55.321117" elapsed="0.061999"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:16.694799" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<msg time="2026-09-26T13:38:55.384116" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:16.694799" elapsed="0.849629"/>
+<status status="PASS" start="2026-09-26T13:38:55.383116" elapsed="2.018369"/>
 </kw>
 <kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
 <arg>20s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-09-26T12:45:17.545424" elapsed="0.002029"/>
+<status status="PASS" start="2026-09-26T13:38:57.402498" elapsed="0.001982"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-09-26T12:45:17.547453" elapsed="3.150873"/>
+<status status="PASS" start="2026-09-26T13:38:57.404480" elapsed="2.745022"/>
 </kw>
 <tag>AUTHENTICATION AVEC L INFORMATION UTILISATEUR INCORRECT</tag>
-<status status="PASS" start="2026-09-26T12:45:06.504238" elapsed="14.194088"/>
+<status status="PASS" start="2026-09-26T13:38:43.594027" elapsed="16.556469"/>
 </test>
-<test id="s1-t5" name="TC4" line="82">
+<test id="s1-t5" name="TC4" line="85">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:20.703364" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-09-26T13:39:00.155079" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-26T12:45:20.702367" elapsed="9.112212"/>
+<status status="PASS" start="2026-09-26T13:39:00.154038" elapsed="9.952170"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-26T12:45:29.815579" elapsed="0.270542"/>
+<status status="PASS" start="2026-09-26T13:39:10.107209" elapsed="0.272303"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//form</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-26T12:45:30.086121" elapsed="0.249388"/>
+<status status="PASS" start="2026-09-26T13:39:10.380586" elapsed="1.094506"/>
 </kw>
-<kw name="LOGIN USER MDP INC">
+<kw name="LOGIN USER MDP INC" owner="KeywordLogin">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:30.337508" level="INFO">Typing text 'AdminDESRG' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
+<msg time="2026-09-26T13:39:11.476094" level="INFO">Typing text 'AdminDESRG' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</arg>
 <arg>${loginPsswdUserInc}[user]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:30.336509" elapsed="0.059002"/>
+<status status="PASS" start="2026-09-26T13:39:11.476094" elapsed="0.037999"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:30.396510" level="INFO">Typing password into text field 'Name=password'.</msg>
-<msg time="2026-09-26T12:45:30.432514" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-09-26T13:39:11.515094" level="INFO">Typing password into text field 'Name=password'.</msg>
+<msg time="2026-09-26T13:39:11.522093" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>Name=password</arg>
 <arg>${loginPsswdUserInc}[passwd]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:30.396510" elapsed="0.057999"/>
+<status status="PASS" start="2026-09-26T13:39:11.514093" elapsed="0.027999"/>
 </kw>
-<status status="PASS" start="2026-09-26T12:45:30.336509" elapsed="0.118000"/>
+<status status="PASS" start="2026-09-26T13:39:11.475092" elapsed="0.067000"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:30.455509" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<msg time="2026-09-26T13:39:11.544095" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:30.455509" elapsed="0.869689"/>
+<status status="PASS" start="2026-09-26T13:39:11.543093" elapsed="2.347671"/>
 </kw>
 <kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
 <arg>20s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-09-26T12:45:31.326209" elapsed="0.002026"/>
+<status status="PASS" start="2026-09-26T13:39:13.891765" elapsed="0.004000"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-09-26T12:45:31.329108" elapsed="2.780316"/>
+<status status="PASS" start="2026-09-26T13:39:13.896766" elapsed="2.872694"/>
 </kw>
 <tag>AUTHENTICATION AVEC LES INFORMATIONS UTILISATEUR ET MOT DE PASSE INCORRECT</tag>
-<status status="PASS" start="2026-09-26T12:45:20.701326" elapsed="13.409047"/>
+<status status="PASS" start="2026-09-26T13:39:00.152492" elapsed="16.616968"/>
 </test>
-<test id="s1-t6" name="TC5" line="96">
+<test id="s1-t6" name="TC5" line="99">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:34.118008" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-09-26T13:39:16.772840" level="INFO">Opening browser 'firefox' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-09-26T12:45:34.117012" elapsed="9.510842"/>
+<status status="PASS" start="2026-09-26T13:39:16.771810" elapsed="10.150473"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-09-26T12:45:43.628878" elapsed="0.291071"/>
+<status status="PASS" start="2026-09-26T13:39:26.922283" elapsed="0.288884"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//form</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-09-26T12:45:43.920955" elapsed="0.102996"/>
+<status status="PASS" start="2026-09-26T13:39:27.211167" elapsed="0.912392"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:44.025951" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
+<msg time="2026-09-26T13:39:28.124595" level="INFO">Typing text 'Admin' into text field 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input</arg>
 <arg>${login}[user]</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:44.024953" elapsed="0.040999"/>
+<status status="PASS" start="2026-09-26T13:39:28.123559" elapsed="0.057002"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:44.066972" level="INFO">Typing password into text field 'Name=password'.</msg>
-<msg time="2026-09-26T12:45:44.075950" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-09-26T13:39:28.181560" level="INFO">Typing password into text field 'Name=password'.</msg>
+<msg time="2026-09-26T13:39:28.188561" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>Name=password</arg>
 <arg>${login}[passwd]</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:44.065952" elapsed="0.046000"/>
+<status status="PASS" start="2026-09-26T13:39:28.180561" elapsed="0.025999"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-09-26T12:45:44.112952" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
+<msg time="2026-09-26T13:39:28.207584" level="INFO">Clicking button 'xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button'.</msg>
 <arg>xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-09-26T12:45:44.112952" elapsed="1.138538"/>
+<status status="PASS" start="2026-09-26T13:39:28.207584" elapsed="3.994281"/>
 </kw>
 <kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
 <arg>20s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-09-26T12:45:45.251490" elapsed="0.004999"/>
+<status status="PASS" start="2026-09-26T13:39:32.202874" elapsed="0.002984"/>
 </kw>
 <tag>TC5</tag>
-<status status="PASS" start="2026-09-26T12:45:34.113998" elapsed="11.142491"/>
+<status status="PASS" start="2026-09-26T13:39:16.770462" elapsed="15.435396"/>
 </test>
-<status status="PASS" start="2026-09-26T12:44:38.581437" elapsed="66.677051"/>
+<status status="PASS" start="2026-09-26T13:38:12.703723" elapsed="79.504136"/>
 </suite>
 <statistics>
 <total>
