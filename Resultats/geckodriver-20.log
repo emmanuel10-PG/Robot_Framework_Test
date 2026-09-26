@@ -1,0 +1,28 @@
+1790430579532	geckodriver	INFO	Listening on 127.0.0.1:50936
+1790430582646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofile1pNUCU"
+Dynamically enable window occlusion 0
+1790430583063	Marionette	INFO	Marionette enabled
+1790430583168	Marionette	INFO	Listening on port 50944
+WebDriver BiDi listening on ws://127.0.0.1:50937
+Read port: 50944
+1790430583360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-157020260831183837-to-release-155-addondeployment not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.warn: RSLoader: Recipe new-tab-158020260913220257-to-release-156 not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.warn: RSLoader: Recipe new-tab-158120260920214645-to-release-156 not returned from collection nimbus-secure-experiments because it does not contain at least one required feature ID.
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1790430590075	Marionette	INFO	Stopped listening on port 50944
+JavaScript warning: https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185, line 115: Script terminated by timeout at:
+5644/e.prototype.tryParseUnquoted@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:41223
+5644/e.prototype.parseLiteral@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:40375
+5644/e.prototype.parseMessage@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:39028
+5644/e.prototype.parse@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:38511
+me@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:53202
+e@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1783336755185:115:59417
+5160/Te/init/</<@https://opensource-demo.orangehrmlive.com/web/dist/js/app.js?v=1783336755185:1:17828
+
+Dynamically enable window occlusion 1

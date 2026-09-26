@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+
 # NB on place variable en bas ou en haut de test case mais pas dans la rubrique test case ( la rubrique
 # test case comprend le nom du projet et les instructions du cas de test.
 

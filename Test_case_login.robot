@@ -1,6 +1,9 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+# important car meme si y a un souci , le code va s executer
+Test Setup
+Test Teardown  Fermer le navigateur
 # importer le fichier keywordLogin dans le fichier Test_cas
 # si le fichier Test etait dans le repertoire Test>Test.robot on aura : ../Ressources/KeywordLogin.robot
 Resource  Ressources/KeywordLogin.robot
@@ -52,7 +55,7 @@ TC1
 
    # Doit attendre avant
    Set Browser Implicit Wait   20s
-   Close Browser
+
 
 
 TC2
@@ -65,7 +68,7 @@ TC2
 
    # Doit attendre avant
    Set Browser Implicit Wait   20s
-   Close Browser
+
 
 
 TC3
@@ -80,7 +83,7 @@ TC3
 
    # Doit attendre avant
    Set Browser Implicit Wait   20s
-   Close Browser
+
 
 TC4
    [Tags]  AUTHENTICATION AVEC LES INFORMATIONS UTILISATEUR ET MOT DE PASSE INCORRECT

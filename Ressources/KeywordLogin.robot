@@ -16,6 +16,8 @@ LOGIN USER INC
    Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${loginUserInc}[user]
    Input Password  Name=password  ${loginUserInc}[passwd]
 
+Fermer le navigateur
+    Close Browser
 
 LOGIN USER MDP INC
    Input Text    xpath=/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input   ${loginPsswdUserInc}[user]
